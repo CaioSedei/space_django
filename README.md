@@ -1,6 +1,6 @@
 terminal bash
 
-para criar o venv: python -m venv venv
+para criar o venv: python -m venv .venv
 para iniciar o ambiente: source venv/Scripts/activate
 para desativar: deactivate 
 
@@ -34,3 +34,20 @@ se der algum warning no (folder setup) (file setting.py) (from dotenv import loa
 
 para criar o app = uma aplicaçao 
 python manage.py startapp "nome da pasta do app"
+
+
+para criar criar as migraçoes e alocar 
+python manage.py makemigrations
+python manage.py migrate
+
+rodar terminal shell nativamente
+python manage.py shell
+
+adicionar no banco via terminal shell nativo
+nome_do_item = nome_da_Classe(todos os dados da classe)
+
+para salvar 
+nome_do_item.save()
+
+para mostrar os itens
+Fotografia.objects.all()
